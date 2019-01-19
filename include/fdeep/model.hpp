@@ -21,6 +21,7 @@ namespace fdeep
 class model
 {
 public:
+    model() {}
     // A single forward pass (no batches).
     tensor5s predict(const tensor5s& inputs) const
     {
